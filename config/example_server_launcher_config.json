@@ -1,0 +1,55 @@
+﻿{
+  "version": 4,
+  "servers": [
+    {
+      "id": "00000000-0000-0000-0000-000000000001",
+      "name": "Velocity Proxy",
+      "jar_path": "C:/path/to/velocity.jar",
+      "min_ram": 256,
+      "max_ram": 1024,
+      "use_minecraft_gui": false,
+      "java_path": null,
+      "jvm_args": [],
+      "program_args": [],
+      "launch_type": "java",
+      "custom_executable": null,
+      "hide_console": false
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000002",
+      "name": "Lobby Server",
+      "jar_path": "C:/path/to/purpur.jar",
+      "min_ram": 512,
+      "max_ram": 2048,
+      "use_minecraft_gui": false,
+      "java_path": null,
+      "jvm_args": [],
+      "program_args": ["--nogui"],
+      "launch_type": "java",
+      "custom_executable": null,
+      "hide_console": false
+    }
+  ],
+  "saved_commands": [
+    {
+      "id": "00000000-0000-0000-0000-00000000c001",
+      "label": "Stop server",
+      "command": "stop",
+      "category": "general",
+      "order": 0
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000c002",
+      "label": "Whitelist reload",
+      "command": "whitelist reload",
+      "category": "general",
+      "order": 1
+    }
+  ],
+  "settings": {
+    "playit_path": "C:/Program Files/playit_gg/bin/playit.exe",
+    "playit_args": [],
+    "auto_launch_playit": false,
+    "hide_console_windows": true
+  }
+}
